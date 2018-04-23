@@ -3,7 +3,7 @@
 /**
  * Implements hook_filter_info_alter().
  */
-function cu_mathjax_bundle_filter_info_alter(&$info) {
+function express_mathjax_bundle_filter_info_alter(&$info) {
 
   // Load the wysiwyg text format
   $format = filter_format_load('wysiwyg');
@@ -18,7 +18,7 @@ function cu_mathjax_bundle_filter_info_alter(&$info) {
  *
  * Adding permissions for Block Designer.
  */
-function cu_mathjax_bundle_secure_permissions($role) {
+function express_mathjax_bundle_secure_permissions($role) {
   $permissions = array(
     'developer' => array(
       'administer mathjax',

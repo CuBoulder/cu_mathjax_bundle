@@ -1,6 +1,6 @@
-name = CU MathJax Bundle
+name = Express MathJax Bundle
 core = 7.x
-package = CU MathJax Bundle
+package = Express MathJax Bundle
 version = 7.x-1.0
 
 
