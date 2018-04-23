@@ -1,0 +1,9 @@
+name = CU MathJax Bundle
+core = 7.x
+package = CU MathJax Bundle
+version = 7.x-1.0
+
+
+dependencies[] = mathjax
+
+bundle_cache_clear = 1
