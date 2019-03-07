@@ -9,3 +9,10 @@ description = The MathJax bundle allows users to display reusable and accessible
 project_demo_url = http://www.colorado.edu/webcentral/node/1982
 
 bundle_cache_clear = 1
+bundle_request = 1
+bundle_group = 'request_bundles'
+
+bundle_roles[] = developer
+bundle_roles[] = administrator
+bundle_roles[] = site_owner
+bundle_roles[] = configuration_manager
